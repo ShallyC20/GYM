@@ -10,7 +10,7 @@ function Navegacion() {
         <div>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/Home" element={<Home />} />
+                    <Route path="/GYM/" element={<Home />} />
                     <Route path="/login" element={<Login/>} />
                     <Route path="/register" element={<Register />} />
                     <Route path="/*" element={<p>Error 404 Recurso no encontrado</p>} />
