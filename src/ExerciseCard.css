@@ -1,0 +1,28 @@
+.exercise-card {
+    background-color: #333;
+    border: 2px solid #444;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    text-align: left;
+  }
+  
+  .exercise-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .exercise-info {
+    padding: 10px;
+  }
+  
+  .exercise-info h3 {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .exercise-info p {
+    font-size: 0.9em;
+    color: #bada55;
+  }
+  

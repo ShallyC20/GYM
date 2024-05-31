@@ -1,0 +1,37 @@
+
+.social-page {
+    padding: 20px;
+  }
+  
+  .connected-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .connected-users {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    
+  }
+  
+  .user-profile img.user-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-profile span {
+    font-size: 18px;
+  }
+  
+  .user-profile.online img.user-img {
+    border: 2px solid green;
+  }
+  
