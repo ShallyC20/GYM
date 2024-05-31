@@ -9,10 +9,10 @@ function Home() {
                 <div className="Imagen">
                 </div>
                 <Link to="/login">
-                    <button onClick={() => alert('Navegar a Login')}>Iniciar Sesión</button>
+                    <button>Iniciar Sesión</button>
                 </Link>
                 <Link to="/register">
-                    <button onClick={() => alert('Navegar a Registro')}>Registrarse</button>
+                    <button >Registrarse</button>
                 </Link>
             </div>
         </div>

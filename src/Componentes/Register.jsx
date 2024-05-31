@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Register.css';
+import Imagen1 from "../assets/Logo1.png";
 
 function Register() {
     const [email, setEmail] = useState('');
@@ -8,20 +10,31 @@ function Register() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Lógica para manejar el registro
         console.log('Registrando:', { email, password, confirmPassword });
     }
     return (
-        <div className="register-container">
+        <div className="containerR">
             <div className="register-card">
-                <div className="Imagen">
+                <div className="ImagenReg">
                     <div className="register-header">
-                        <div className="access">Acceso</div>
-                        <div className="signup">Inscribirse</div>
+                        <Link to="/login" className="access">Acceso</Link>
+                        <Link to="/register" className="signup">Inscribirse</Link>
+                        <img className="Logo" src={Imagen1} alt="Logo de del GYM" />
                     </div>
                     <div className="welcome-message">
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
                         <h1>Bienvenido novato,</h1>
-                        <p>Ingrese su información a continuación o esta será corroborada por el administrador del gimnasio</p>
+                        <p>Ingrese su información a continuación o</p>
+                        <p>esta será corroborada por el administrador del gimnasio</p>
                     </div>
                 </div>
                 <form className="register-form" onSubmit={handleSubmit}>
@@ -46,7 +59,9 @@ function Register() {
                         onChange={(e) => setConfirmPassword(e.target.value)}
                         required
                     />
-                    <button type="submit" className="register-button">Registrarse</button>
+                    <Link to="/casa">
+                        <button className="register-button">Registrarse</button>
+                    </Link>
                 </form>
             </div>
         </div>

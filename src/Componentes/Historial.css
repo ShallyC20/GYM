@@ -1,0 +1,77 @@
+.containerH {
+    text-align: center;
+    background-color: #121212;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inf-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 14px;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+
+.his-card {
+    background: rgb(51, 52, 51);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+.workout-card {
+    display: flex;
+    align-items: center;
+    background-color: #222;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.workout-card img {
+    width: 65px;
+    height: 65px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.workout-card h2 {
+    margin: 0;
+}
+
+.workout-card p {
+    margin: 5px 0 0;
+}
+
+.arrow {
+    margin-left: auto;
+    font-size: 24px;
+}
+
+.BotonNav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1e1e1e;
+    padding: 10px 0;
+
+    i {
+        font-size: 24px;
+        color: white;
+    }
+}

@@ -1,0 +1,60 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+}
+
+.slick-dots li button:before {
+    color: #00ff00;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #00ff00;
+}
+
+.containerC {
+    text-align: center;
+    background-color: #121212;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Casa-card {
+    background: rgb(51, 52, 51);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+.Cabeza {
+    padding: 20px;
+    h1 {
+        margin: 0;
+    }
+    p {
+        margin: 5px 0 20px;
+
+        strong {
+            color: #00ff00;
+        }
+    }
+}
+
+.BotonNav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1e1e1e;
+    padding: 10px 0;
+
+    i {
+        font-size: 24px;
+        color: white;
+    }
+}
+
