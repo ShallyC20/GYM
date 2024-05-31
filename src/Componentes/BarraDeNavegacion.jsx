@@ -6,8 +6,8 @@ import Informacion from './Informacion';
 function BarraDeNavegacion() {
     return (
         <Routes>
-            {/* <Route path="/casa" element={<Casa />} />
-            <Route path="/informacion" element={<Informacion />} /> */}
+            <Route path="/casa" element={<Casa />} />
+            <Route path="/informacion" element={<Informacion />} />
         </Routes>
     )
 }
