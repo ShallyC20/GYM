@@ -1,0 +1,31 @@
+.cardContainer{
+    background-color: black;
+    width: 375px;
+    height: 812px;
+}
+
+.headerName{
+    padding-top: 42px;
+    padding-bottom: 42px;
+    text-align: center;
+}
+
+.dailyDescription{
+    padding-left: 10px;
+    text-align: left;
+}
+.textGreen{
+    color: rgba(208, 253, 62, 1);
+}
+
+.indicators{
+    align-items: center;
+    bottom: 2px;
+}
+
+.indicator {
+    background-color:rgba(208, 253, 62, 1);
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+}
