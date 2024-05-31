@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "./NavBar.jsx";
+import NavBar from "./BottomNav.jsx";
 import "./CardHome.css";
 const CardHome = () => {
   return (
