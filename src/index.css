@@ -11,6 +11,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  align-items: center;
 }
 
 a {
@@ -35,6 +36,10 @@ h1 {
   line-height: 1.1;
 }
 
+h2{
+  text-align: center;
+  margin-top: 0px;
+}
 
 button:hover {
   border-color: #646cff;

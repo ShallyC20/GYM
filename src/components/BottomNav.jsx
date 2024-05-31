@@ -1,21 +1,17 @@
 import React from "react";
 import "./BottomNav.css";
-import profileImage from "../public/profile.jpg";
-import homeIcon from "../public/Home.png";
-import statsIcon from "../public/stads.png";
-import bellIcon from "../public/bell.png";
-import usersIcon from "../public/Vector.png";
+import profileImage from "../assets/profile.jpg";
+import homeIcon from "../assets/Home.png";
+import statsIcon from "../assets/stads.png";
+import bellIcon from "../assets/bell.png";
+import usersIcon from "../assets/Vector.png";
 
 class BottomNav extends React.Component {
   render() {
     return (
       <div className="bottom-nav">
-        <Link to="/social">
-          <img src={usersIcon} alt="Users" className="icon" />
-        </Link>
-        <Link to="/">
-          <img src={homeIcon} alt="Home" className="icon" />
-        </Link>
+        <img src={usersIcon} alt="Users" className="icon" />
+        <img src={homeIcon} alt="Home" className="icon" />
         <img src={statsIcon} alt="Stats" className="icon" />
         <div className="bell-icon-wrapper">
           <img src={bellIcon} alt="Bell" className="icon" />

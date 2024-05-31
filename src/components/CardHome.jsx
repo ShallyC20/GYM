@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "./BottomNav.jsx";
+import BottomNav from "./BottomNav.jsx";
 import "./CardHome.css";
 const CardHome = () => {
   return (
@@ -22,7 +22,7 @@ const CardHome = () => {
           </div>
         </div>
       </div>
-      <NavBar />
+      <BottomNav />
     </div>
   );
 };

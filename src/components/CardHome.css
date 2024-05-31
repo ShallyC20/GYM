@@ -1,7 +1,10 @@
 .cardContainer{
+    display: flex;
     background-color: black;
     width: 375px;
     height: 812px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .headerName{
@@ -19,6 +22,8 @@
 }
 
 .indicators{
+    display: flex;
+    flex-direction: column;
     align-items: center;
     bottom: 2px;
 }
