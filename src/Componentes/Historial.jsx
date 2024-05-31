@@ -9,25 +9,47 @@ function Historial() {
     return (
         <div className="containerH">
             <div className="his-card">
-                <div className="inf-header">
-                    <button className="back-button" >HOLA</button>
+                <div className="his-header">
+                    <Link to="/informacion" >
+                        <span className="arrow1">⬅</span>
+                    </Link>
                     <h1>Historial de entrenamiento</h1>
                 </div>
                 <div className="workout-card" >
                     <img className="Gluteos" src={Imagen1} alt="Ejercicio GYM" />
                     <div>
                         <h2>Ejercicio de gluteos</h2>
-                        <p>Duración: 30:43</p>
                     </div>
-                    <span className="arrow">HOLA</span>
+                    <Link to="/informacion" >
+                        <span className="arrow">➡</span>
+                    </Link>
                 </div>
                 <div className="workout-card" >
                     <img className="Gluteos" src={Imagen2} alt="Ejercicio GYM" />
                     <div>
                         <h2>Ejercicio de pecho</h2>
-                        <p>Duración: 24:42</p>
                     </div>
-                    <span className="arrow">HOLA</span>
+                    <Link to="/informacion" >
+                        <span className="arrow">➡</span>
+                    </Link>
+                </div>
+                <div className="workout-card" >
+                    <img className="Gluteos" src={Imagen2} alt="Ejercicio GYM" />
+                    <div>
+                        <h2>Ejercicio de espalda</h2>
+                    </div>
+                    <Link to="/informacion" >
+                        <span className="arrow">➡</span>
+                    </Link>
+                </div>
+                <div className="workout-card" >
+                    <img className="Gluteos" src={Imagen2} alt="Ejercicio GYM" />
+                    <div>
+                        <h2>Ejercicio de abdomen</h2>
+                    </div>
+                    <Link to="/informacion" >
+                        <span className="arrow">➡</span>
+                    </Link>
                 </div>
                 <div className="BotonNav">
                     <NavItem to="/amigos"><i className="fas fa-users"></i></NavItem>

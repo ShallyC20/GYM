@@ -7,23 +7,30 @@
     justify-content: space-between;
 }
 
-.inf-header {
+.his-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 20px 14px;
+    padding: 20px;
+    font-size: 8px;
+
 }
 
-.back-button {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 24px;
-    cursor: pointer;
+.arrow1 {
+    margin-left: auto;
+    font-size: 38px;
+    color: white; /* Color normal de la flecha */
+    margin-right: 40px;
+    
+}
+
+.arrow1:active {
+    color: rgb(170, 255, 0); /* Color de la flecha cuando se hace clic */
 }
 
 h1 {
     text-align: center;
+    margin: 0;
 }
 
 .his-card {
@@ -32,14 +39,15 @@ h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 500px;
     width: 100%;
+    min-height: 400px;
 }
 
 .workout-card {
     display: flex;
     align-items: center;
     background-color: #222;
-    margin: 20px;
-    padding: 25px;
+    margin: 30px;
+    padding: 15px;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -61,7 +69,12 @@ h1 {
 
 .arrow {
     margin-left: auto;
-    font-size: 24px;
+    font-size: 38px;
+    color: white;  
+}
+
+.arrow:active {
+    color: rgb(170, 255, 0); /* Color de la flecha cuando se hace clic */
 }
 
 .BotonNav {
